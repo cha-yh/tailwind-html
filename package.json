@@ -1,0 +1,13 @@
+{
+  "name": "wind-publishing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:css": "npx tailwindcss build tailwind.css -o src/styles/main.css",
+    "watch:css": "npx tailwindcss build tailwind.css -o src/styles/main.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
+}
